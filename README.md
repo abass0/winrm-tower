@@ -1,5 +1,5 @@
 # Ansible Tower Windows Ready Container 
-> This is an Ansible Tower custom container image that bringes the pre requirements to use it with Windows Hosts.
+> This is an Ansible Tower custom container image that brings the pre requirements to use it with Windows Hosts.
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 [![Latest Github release](https://img.shields.io/badge/release-v1.0-brightgreen)](https://github.com/abass0/winrm-tower/releases)
