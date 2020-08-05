@@ -3,7 +3,7 @@
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 [![Latest Github release](https://img.shields.io/badge/release-v1.0-brightgreen)](https://github.com/abass0/winrm-tower/releases)
-[![Last Github Commit](https://img.shields.io/github/last-commit/abass0/winrm-tower/master?style=plastic)
+[!Last Github Commit](https://img.shields.io/github/last-commit/abass0/winrm-tower/master?style=plastic)
 
 
 ## Container Image Description
