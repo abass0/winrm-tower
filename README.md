@@ -39,6 +39,14 @@ Additionally, there is some pre configuration that is needed to be performed on 
 > * https://docs.ansible.com/ansible/latest/user_guide/windows_setup.html
 
 
+## Additional Parameters for Ansible - Windows Comunication
 
+These parameters go on the `variables` input of your inventory:
+```
+---
+ansible_port: 5986
+ansible_connection: winrm 
+ansible_winrm_server_cert_validation: ignore
+ansible_winrm_transport: ntlm
 
-
+```
