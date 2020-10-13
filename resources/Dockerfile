@@ -7,3 +7,5 @@ RUN sh -c ". /var/lib/awx/venv/windows_modules/bin/activate ; pip3 install pywin
 RUN sh -c ". /var/lib/awx/venv/windows_modules/bin/activate ; pip3 install ptwinrm"
 RUN sh -c ". /var/lib/awx/venv/windows_modules/bin/activate ; pip3 install pysnow"
 RUN sh -c ". /var/lib/awx/venv/windows_modules/bin/activate ; pip3 install netaddr"
+ADD tower.cert /etc/tower
+ADD tower.pem /etc/tower
